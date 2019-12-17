@@ -1,0 +1,19 @@
+1. sigaction 문제 5개
+   1) SIGIGN 설정 예시
+   2) SIGDEL 설정 예시
+   3) SIGINT 받을때 usrdefine() 호출하는 것 설정 예시
+   4) SIGTERM 받을때 SIGTERM보낸 프로세서 real user id 출력하는것 코드 예시
+   5) 포착되지 않는 시그널 2개 적어라.
+
+2. pipe로 read write하는 4가지 방법 적어라.
+    (필자는 pipe, dup2, select, mkfifo 이렇게 적었는데 답은 모르겠음. 이걸로 다들 논란이 많음.)
+
+3. join함수 com1 | com2 // pipe써서 fork하는거 코드 빈칸 채우기. dup2~execvp 쓰는부분 2개 빈칸
+
+4. 1) 세마포어 초기값 설정하는 코드 써라.
+    2) critical section 진입 직전 코드 써라. P
+    3) critical section 실행 직후 코드 써라. V
+
+5. 1) TCP UDP 특성 간략 설명
+    2) TCP server, client flowchart 그리고 동작방식 설명
+    3) UDP도 flowchart 그리고 동작방식 설명

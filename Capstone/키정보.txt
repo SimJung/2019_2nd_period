@@ -1,0 +1,8 @@
+key store path : d:study/2019_2nd/capstone/keystore어쩌구
+
+123123
+
+alias : key0
+password : 123123
+
+first and last name : jung
